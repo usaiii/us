@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>直问直答</title>
+    <style>
+        body {
+            margin: 0;
+            background: linear-gradient(160deg, #0f2027, #203a43, #2c5364);
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: white;
+        }
+        .card {
+            background: rgba(0, 0, 0, 0.5);
+            padding: 20px 30px;
+            border-radius: 12px;
+            text-align: center;
+            backdrop-filter: blur(8px);
+            box-shadow: 0 4px 20px rgba(0,0,0,0.4);
+            animation: fadeInUp 0.8s ease-out;
+        }
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+        h2 {
+            font-size: 18px;
+            font-weight: normal;
+            color: #ddd;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 20px;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        .contacts {
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .btn {
+            padding: 6px 12px;
+            border: 1px solid #fff;
+            border-radius: 6px;
+            text-decoration: none;
+            color: white;
+            transition: all 0.2s ease-in-out;
+            font-size: 14px;
+        }
+        .btn:hover {
+            background: rgba(255,255,255,0.1);
+            transform: scale(1.05);
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h2>你好，世界</h2>
+        <p>别找了，直接问！需要什么，我们帮你搞定！</p>
+        <div class="contacts">
+            <a class="btn" href="https://qm.qq.com/q/viGtNvXNJu">QQ: 914339216</a>
+            <a class="btn" href="https://t.me/acexxxcc">Telegram: @acexxxcc</a>
+        </div>
+    </div>
+</body>
+</html>
