@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>别找了 — 联系方式</title>
+<title>要啥直接问</title>
 <style>
 :root {
   --bg1: #0b1116;
@@ -21,7 +21,6 @@ body {
   padding: 20px;
 }
 
-/* 卡片样式 */
 .card {
   background: rgba(255,255,255,0.05);
   backdrop-filter: blur(8px);
@@ -57,8 +56,16 @@ h1 {
 .contacts {
   display: flex; flex-wrap: wrap; gap: 10px;
 }
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
 .contact-btn {
+  flex: 1;                        
+  text-align: center;             
   padding: 6px 12px;
+  margin: 0 4px;                   
   border-radius: 999px;
   border: 1px solid rgba(255,255,255,0.2);
   background: rgba(255,255,255,0.06);
@@ -66,6 +73,13 @@ h1 {
   text-decoration: none;
   color: var(--accent);
   transition: all 0.25s ease;
+}
+
+.contacts .contact-btn:first-child {
+  margin-left: 0;                  
+}
+.contacts .contact-btn:last-child {
+  margin-right: 0;                 
 }
 .contact-btn:hover {
   background: rgba(255,255,255,0.12);
@@ -93,7 +107,7 @@ h1 {
     <h1>别找了，直接问！需要什么，我们帮你搞定！</h1>
     <div class="contacts">
       <a class="contact-btn" href="https://qm.qq.com/q/viGtNvXNJu">QQ: <strong>914339216</strong></a>
-      <a class="contact-btn" href="https://t.me/acexxxcc">Telegram: <strong>@acexxxcc</strong></a>
+      <a class="contact-btn" href="https://t.me/uscii">Telegram: <strong>@uscii</strong></a>
     </div>
   </div>
 </body>
